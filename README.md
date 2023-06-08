@@ -46,7 +46,7 @@ Ter um shell que facilite a digitação de comandos é essencial para o desenvol
 
 Ele guardará histórico dos comandos, facilitará auto-complete entre outras coisas.
 
-Para links de como instala-lo no Mac, Linux e Windows, acesse este [repositório](https://github.com/argentinaluiz/ambiente-dev-produtivo). Nele terá um PDF com várias dicas de configurações de ambiente para os três sistemas operacionais, além dos links para instalação do oh my zsh.
+Neste [link](https://github.com/argentinaluiz/ambiente-dev-produtivo) eu mostro dicas de como instala-lo, além de configurações e ferramentas utilizado para Mac, Linux e Windows.
 
 O oh my zsh permite configurar um tema de cores, eu uso o [powerlevel10k](https://github.com/romkatv/powerlevel10k). No link há instruções de como instala-lo e habilita-lo no oh my zsh. Instale também a fonte `Meslo Nerd` através do link: [https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
 
@@ -67,11 +67,11 @@ wget -O - https://raw.githubusercontent.com/argentinaluiz/my-vscode-settings/mai
 
 ## Alguns settings relevantes
 
-### > Modo de salvamento de arquivos
+### Modo de salvamento de arquivos
 
 Ative-a clicando em `File` e depois em `Auto Save` no menu.
 
-### > Extensões padrões no Remote Container
+### Extensões padrões no Remote Container
 
 Se você usar o Remote Container para melhorar seu ambiente com o Docker, defina algumas extensões padrões que sempre estarão nos container.
 
@@ -79,35 +79,33 @@ Vá em Files -> Settings, pesquise por `remote.containers.defaultExtensions` e a
 
 As minhas são:
 ```
-    alefragnani.bookmarks,
-    bungcip.better-toml,
-    christian-kohler.path-intellisense,
-    dbaeumer.vscode-eslint,
-    donjayamanne.githistory,
-    esbenp.prettier-vscode,
-    hazer.reactcodesnippets,
-    humao.rest-client,
-    johnpapa.vscode-peacock,
-    mikestead.dotenv,
-    ms-azuretools.vscode-docker,
-    naumovs.color-highlight,
-    oderwat.indent-rainbow,
-    shan.code-settings-sync,
-    sonarsource.sonarlint-vscode,
-    steoates.autoimport,
-    streetsidesoftware.code-spell-checker,
-    streetsidesoftware.code-spell-checker-portuguese-brazilian,
-    visualstudioexptteam.vscodeintellicode,
-    wwm.better-align,
-    wix.vscode-import-cost,
-    xyz.local-history,
-    zignd.html-css-class-completion,
-    eamodio.gitlens,
-    vivaxy.vscode-conventional-commits,
-    github.copilot
+    "bungcip.better-toml",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "esbenp.prettier-vscode",
+    "hazer.reactcodesnippets",
+    "humao.rest-client",
+    "johnpapa.vscode-peacock",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "naumovs.color-highlight",
+    "oderwat.indent-rainbow",
+    "shan.code-settings-sync",
+    "sonarsource.sonarlint-vscode",
+    "steoates.autoimport",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+    "wix.vscode-import-cost",
+    "xyz.local-history",
+    "zignd.html-css-class-completion",
+    "eamodio.gitlens",
+    "vivaxy.vscode-conventional-commits",
+    "github.copilot",
+    "alefragnani.bookmarks"
 ```
 
-### > Extensão Peacock
+### Extensão Peacock
 
 Esta extensão permite colorir as bordas do VSCode, ajudando a identificar melhor vários VSCodes abertos. Você pode criar um esquema de cores por tecnologia e selecionar a cor para diferenciar os VSCodes abertos.
 
@@ -201,7 +199,7 @@ Abra o `File -> Settings -> Peacock`, e selecione o esquema de cores que desejar
   ],
 ```
 
-### > Selecionar qualquer texto no terminal ao selecionar com mouse
+### Selecionar qualquer texto no terminal ao selecionar com mouse
 
 
 Ative a opção: `"terminal.integrated.copyOnSelection": true`
