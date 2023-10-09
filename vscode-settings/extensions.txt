@@ -2,7 +2,6 @@ adpyke.codesnap
 batisteo.vscode-django
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
-bungcip.better-toml
 ChakrounAnas.turbo-console-log
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
@@ -11,6 +10,8 @@ eamodio.gitlens
 esbenp.prettier-vscode
 firsttris.vscode-jest-runner
 GitHub.copilot
+GitHub.copilot-chat
+GitHub.copilot-labs
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
@@ -47,6 +48,7 @@ sourcery.sourcery
 steoates.autoimport
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-portuguese-brazilian
+tamasfe.even-better-toml
 Tim-Koehler.helm-intellisense
 VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
