@@ -11,7 +11,6 @@ esbenp.prettier-vscode
 firsttris.vscode-jest-runner
 GitHub.copilot
 GitHub.copilot-chat
-GitHub.copilot-labs
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
