@@ -428,25 +428,18 @@ Inlay Hints são dicas visuais que aparecem inline no código mostrando tipos de
 "editor.inlayHints.padding": true
 ```
 
-- `"offUnlessPressed"`: Os hints ficam ocultos por padrão e aparecem apenas quando você pressiona `Ctrl+Alt` (ou `Cmd+Option` no Mac)
+- `"offUnlessPressed"`: Os hints ficam ocultos por padrão e aparecem apenas quando você pressiona `Ctrl+Alt` (ou `Ctrl+Option` no Mac)
 - `padding`: Adiciona espaçamento ao redor dos hints para melhor legibilidade
 
 #### TypeScript e JavaScript
 
 ```json
-"typescript.inlayHints.parameterNames.enabled": "all",
-"typescript.inlayHints.variableTypes.enabled": true,
-"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-"typescript.inlayHints.parameterTypes.enabled": true,
-"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-"typescript.inlayHints.enumMemberValues.enabled": true,
-
-"javascript.inlayHints.parameterNames.enabled": "all",
-"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-"javascript.inlayHints.variableTypes.enabled": true,
-"javascript.inlayHints.parameterTypes.enabled": true,
-"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-"javascript.inlayHints.enumMemberValues.enabled": true
+"js/ts.inlayHints.parameterNames.enabled": "all",
+"js/ts.inlayHints.variableTypes.enabled": true,
+"js/ts.inlayHints.propertyDeclarationTypes.enabled": true,
+"js/ts.inlayHints.parameterTypes.enabled": true,
+"js/ts.inlayHints.functionLikeReturnTypes.enabled": true,
+"js/ts.inlayHints.enumMemberValues.enabled": true
 ```
 
 Exibe inline:
